@@ -11,6 +11,7 @@ This app is used to link think-aloud embeddings with behavioral data using LSTM 
 ```bash
 git clone https://github.com/Zhenlong-Zhang/LLM-Embedding-and-LSTM.git
 cd LLM-Embedding-and-LSTM
+```
 
 ### 2. (Optional) Create and activate a virtual environment
 
@@ -18,10 +19,16 @@ cd LLM-Embedding-and-LSTM
 python3 -m venv venv
 source venv/bin/activate   # macOS/Linux
 venv\Scripts\activate      # Windows
+```
 
 ### 3. Install required packages
+
+```bash
 pip install -r requirements.txt
+```
 
 ### 4. Launch the Streamlit app
-streamlit run app.py
 
+```bash
+streamlit run app.py
+```

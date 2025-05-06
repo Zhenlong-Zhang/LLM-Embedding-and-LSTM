@@ -4,6 +4,15 @@
 
 This app is used to link think-aloud embeddings with behavioral data using LSTM models. It supports both raw think-aloud text input (via OpenAI API) and precomputed embeddings to analyze alignment between language and behavior.
 
+## APP Description
+This app links think-aloud protocol embeddings with behavioral decision-making data using LSTM models.  
+It enables users to:
+- Upload behavior data and think-aloud text
+- Generate embeddings from text via OpenAI API or upload precomputed ones
+- Train base LSTM and a LSTM that uses Text embedding as its H0
+- Perform RSA analysis between embeddings and base LSTM hidden states(the last trail's hidden state, since it contains all the history memory)
+- Compare prediction accuracy in LSTM with and without embeddings
+
 ## Setup Instructions
 
 ### 1. Clone the repository

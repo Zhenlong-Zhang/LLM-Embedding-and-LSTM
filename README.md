@@ -14,6 +14,14 @@ It enables users to:
 - Perform Representational Similarity Analysis (RSA) between the text embeddings and the final hidden states of the base LSTM (The hidden state at the last trial should be sufficent as it integrates full trail history)
 - Compare prediction accuracy in LSTM with and without embeddings
 
+## App Demo (GIF)
+
+### 1. Uploading Behavior & Text Data
+![Data Loading](gifs/dataloading.gif)
+
+### 2. Training LSTM & Analyzing
+![Fit & analyse](gifs/fitana.gif)
+
 ## Setup Instructions
 
 ### 1. Clone the repository

@@ -10,7 +10,7 @@ class BaseLSTM(nn.Module):
         return self.fc(out[:, -1, :])
 
 class LSTMwithEmbedding(BaseLSTM):
-    def __init__(self, input_size=2, hidden_size=32, output_size=2, emb_dim=768):
+    def __init__(self, input_size=2, hidden_size=32, output_size=2, emb_dim=1536):
         super().__init__(input_size, hidden_size, output_size)
         self.linear_h0 = nn.Linear(emb_dim, hidden_size)
     def forward(self, x, h0_vec):

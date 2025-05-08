@@ -43,6 +43,7 @@ venv\Scripts\activate      # Windows
 
 ```bash
 pip install -r requirements.txt
+pip install numpy pandas scipy scikit-learn matplotlib torch streamlit openai # alternative approch
 ```
 
 ### 4. Launch the Streamlit app

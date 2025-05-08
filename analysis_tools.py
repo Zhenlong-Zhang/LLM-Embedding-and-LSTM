@@ -127,7 +127,7 @@ def run_crossval_accuracy(model_class, dataset, use_h0=False, emb_dim=None,
                     x, h0 = x.to(device), h0.to(device)
                     pred = model(x, h0)
                 else:
-                    x, _y = batch
+                    x, y = batch
                     x = x.to(device)
                     pred = model(x)
                 preds.extend(torch.argmax(pred, dim=1).cpu().numpy())
